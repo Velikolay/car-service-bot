@@ -1,0 +1,22 @@
+{
+  "name": "car-service-bot",
+  "version": "1.0.0",
+  "description": "demo bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.prod.skyscanner.local:NikolayIvanov/car-service-bot-demo.git"
+  },
+  "author": "NikolayIvanov",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.2",
+    "botbuilder": "^3.8.4",
+    "botbuilder-location": "^2.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "restify": "^5.0.0"
+  }
+}
