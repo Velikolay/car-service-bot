@@ -36,6 +36,8 @@ ngrok http 5000
 ## Setting up Skype and Facebook
 
 Connect to Messenger: https://docs.microsoft.com/en-us/bot-framework/channel-connect-facebook<br />
+Facebook Page: https://www.facebook.com/pg/Car-Service-Bot-353467028405680<br />
+Page ID: 353467028405680<br />
 Create new Facebook Application: https://developers.facebook.com/apps
 
 
