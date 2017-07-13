@@ -5,7 +5,7 @@
 1. Initialize the project
 ```
 npm init
-npm install --save botframework restify
+npm install --save botbuilder restify
 ```
 Use snippet: *echo_bot*
 
@@ -19,6 +19,7 @@ export MICROSOFT_APP_PASSWORD=<PASSWORD>
 
 4. Start the bot process
 ```
+npm install -g nodemon
 nodemon app.js
 ```
 
@@ -34,8 +35,7 @@ ngrok http 5000
 
 ## Setting up Skype and Facebook
 
-Test the bot in Skype and Web chat: https://dev.botframework.com/bots?id=car_service_demo
-Connect to Messenger: https://docs.microsoft.com/en-us/bot-framework/channel-connect-facebook
+Connect to Messenger: https://docs.microsoft.com/en-us/bot-framework/channel-connect-facebook<br />
 Create new Facebook Application: https://developers.facebook.com/apps
 
 
@@ -69,12 +69,11 @@ Use snippet: *bot_dialog*
 
 ## Call the backend and show some results
 
-1. Install fetch
 ```
 npm install --save isomorphic-fetch
 ```
 
-Use snippet: *bot_backend*, *bot_venues_car* & *bot_reply_with_venues*
+Use snippet: *bot_reply_with_venues*, *bot_venues_cards* & *bot_backend*
 
 
 ## Facebook 'Send Location' quick reply
