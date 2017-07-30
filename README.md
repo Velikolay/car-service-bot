@@ -47,7 +47,7 @@ Create new Facebook Application: https://developers.facebook.com/apps
 
 2. Create a new Agent for your bot
 
-3. Train the agent with the provided Entities and Intent Data
+3. Train the agent with the provided Entities and Intent Data - api.ai/entities & api.ai/intents
 
 4. Test it in the console GUI and look at the payload format
 
